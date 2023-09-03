@@ -1,0 +1,401 @@
+@font-face {
+    font-family: Katerio;
+    src: url(../font/FontsFree-Net-Katerio.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat.otf);
+}
+
+/* 
+color 
+#C6AA87
+#AD916C
+#6F2114
+#3D2D26
+#efe4d0
+#d0a45a
+#c4842c
+#7b553a 
+*/
+
+
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior: smooth;
+/* font-family: Katerio; */
+/* font-family: Montserrat; */
+
+}
+html,body {
+width:100%;
+height:100%;
+/* background-color:rebeccapurple; */
+}
+
+
+/* navbar  */
+.nav-bg{
+    background-color:#3D2D26;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d0a45a;
+   
+}
+.navbar-brand img{
+    width: 100px;
+    height: 70px;
+    object-fit: contain;
+    object-position: center;
+}
+.navbar-brand h1{
+    font-family: Katerio; 
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    
+}
+.navbar-nav{
+    padding: 0px 15px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    color: #d0a45a; 
+    font-family: Montserrat;
+    text-transform: capitalize;
+}
+.nav-link:hover , .nav-user>i:hover ,.navbar-brand:hover{
+    color: #efe4d0;
+    filter: drop-shadow(2px 5px 6px #efe4d0);
+}
+.navbar-toggler-icon {
+
+    font-size: 2rem;
+    color: #d0a45a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* navbar  */
+
+
+
+/* home  */
+.home-item{
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/0102c0102240493.5f3230eaa93b9.jpg");
+    /* background-color: aquamarine; */
+    
+}
+.nav-user{
+    padding: 0px 5px;
+}
+.nav-user i{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0 3px;
+    color: #d0a45a;
+}
+.overly{
+    width: 100%;
+    height: 100vh;
+    padding: 30px ;
+    /* background-color: #0000003d; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.overly>div{
+    position: relative;
+    
+}
+
+.overly>div> h1{
+    font-size: 8rem;
+    color: #d0a45a;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: Katerio; 
+}
+.overly >div> p{
+        color: #d0a45a;
+        font-family: Montserrat;
+        font-weight: 800;
+        text-transform: capitalize;
+        position: absolute;
+        bottom: 3%;
+        left: 5%;
+}
+.overly img{
+    
+    filter: drop-shadow(1px 3px 3px #efe4d0);
+   
+}
+/* home section  */
+
+
+
+
+
+/* sliders section   */
+.slider {
+    width: 100%;
+    /* height: 30vh; */
+}
+#brand-gif {
+    width: 100%;
+    height: 100%;
+}
+.detalis{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* background-color: aquamarine; */
+}
+.detalis-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.details-icon{
+    width: auto !important;
+    margin: 10px 3px;
+}
+.detalis-item h5{
+    text-transform: capitalize;
+    font-family: Montserrat; 
+    color: #C6AA87;
+}
+/* sliders serction  */
+
+
+
+
+
+
+
+/* shoping section  */
+.shop{
+    width: 100%;
+    height: auto;
+    background-color: #efe4d0;
+}
+.text-center {
+    font-family: Katerio;
+    text-transform: uppercase;
+    margin: 15px 15px;  
+    color: #c4842c;
+} 
+
+
+.card{
+    margin: 0;
+    padding: 0;
+    /* height: 35vh; */
+    
+}
+.card > img{
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.card-body{
+    background-color: #AD916C;
+    color: #efe4d0;
+    font-family: Montserrat;
+}
+.card-body .btn{
+    color: #3D2D26;
+    font-family: Montserrat;
+    border: 2px solid #d0a45a;
+    background-color: #d0a45a;
+    border-radius: 12px;
+    
+}
+.card-body .btn:hover{
+    box-shadow: 0px 2px 6px #efe4d0;    
+}
+
+
+
+.catel-wrap{
+    width: 100%;
+    height: 60vh;
+    background-color: skyblue;
+}
+/* shoping section  */
+
+
+
+
+
+/* asspitation srction  */
+
+#asspitation{
+    width: 100%;
+    /* height: 100vh; */
+    padding: 5px;
+    background-color: #efe4d0; 
+}
+
+.asspi{
+    
+    display: flex;
+    align-items: center;
+}
+.asspi-txt h3 {
+    color: #3D2D26;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: Montserrat;
+    filter: drop-shadow(0px 2px 6px #e7cb96);
+    
+    
+}
+.asspi-img img{
+     width: 100%;
+    height: 100%; 
+    border-radius: 15px;
+    
+}
+.box-shadow{
+    box-shadow: 5px 5px 20px  #e7cb96;
+}
+
+.box-shadow-inver{
+    box-shadow:  -5px -5px 20px  #e7cb96;
+}
+
+
+
+/* asspitation srction  */
+
+
+/* about section  */
+
+#about-sec {
+
+    width: 100%;
+    /* height: 100vh; */
+    /* padding: 5%; */
+    background-color: #efe4d0; 
+}
+
+.about{
+    width: 100%;
+    /* height: 80vh; */
+    
+   
+    
+}
+.about>div> img{
+    height: 100%;
+    border-radius: 25px;
+}
+.about-brand{
+    font-family: Katerio;
+    text-transform: uppercase;
+    margin: 15px 15px; 
+    font-weight: 600; 
+    color: #c4842c;
+}
+.about-con{
+    font-family: Montserrat;
+    margin: 5px 15px;
+    color: #C6AA87;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+
+
+/* about section  */
+
+/* contact section  */
+
+#contact-sec{
+    width: 100%;
+    padding: 15px 15px;
+    background-color: #efe4d0;
+}
+.contact{
+    border: 2px  solid #000 !important;
+    padding: 20px 23px;
+    border-radius: 20px;
+    /* background-color: transparent; */
+}
+
+
+/* contact section  */
+
+/* footer section  */
+#footer-sec{
+    width: 100%;
+    height: 300px;
+    padding: 15px 15px;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/db5ed4146094979.62ae2ad781899.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.footer{
+    width: 100%;
+    /* height: 30px; */
+    /* background-color: aqua; */
+}
+
+.footer h1{
+    font-family: Katerio;
+    color: #c4842c;
+}
+
+.foot-nav{
+    
+    background-color: #d0a45a;
+    
+    
+}
+.foot-nav ul{
+    display: flex;
+    text-transform: uppercase;
+    /* flex-wrap: wrap; */
+    
+
+}
+.foot-nav ul li{
+    padding: 3px 13px;
+    list-style: none;
+}
+.footer-bg{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/db5ed4146094979.62ae2ad781899.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    --bs-navbar-toggler-icon-bg: url("...")
+}
+
+
+/* footer section  */
+
+
