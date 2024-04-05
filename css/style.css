@@ -43,9 +43,9 @@ height:100%;
 
 .navbar-brand{
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
-    color: #d0a45a;
+    color: #efe4d0;
    
 }
 .navbar-brand img{
@@ -67,18 +67,19 @@ height:100%;
 }
 .nav-link{
     font-size: 1.3rem;
-    color: #d0a45a; 
+    color: #efe4d0;
     font-family: Montserrat;
     text-transform: capitalize;
 }
-.nav-link:hover , .nav-user>i:hover ,.navbar-brand:hover{
-    color: #efe4d0;
+.nav-link:hover , .nav-user>i:hover ,.navbar-brand > h1:hover{
+    color: #d0a45a; 
     filter: drop-shadow(2px 5px 6px #efe4d0);
 }
 .navbar-toggler-icon {
-
+    
     font-size: 2rem;
-    color: #d0a45a;
+    color: #efe4d0;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +107,7 @@ height:100%;
     font-size: 1.5rem;
     font-weight: 400;
     padding: 0 3px;
-    color: #d0a45a;
+    color: #efe4d0;
 }
 .overly{
     width: 100%;
@@ -127,13 +128,13 @@ height:100%;
 
 .overly>div> h1{
     font-size: 8rem;
-    color: #d0a45a;
+    color: #efe4d0;
     font-weight: 600;
     text-transform: capitalize;
     font-family: Katerio; 
 }
 .overly >div> p{
-        color: #d0a45a;
+        color: #efe4d0;
         font-family: Montserrat;
         font-weight: 800;
         text-transform: capitalize;
@@ -295,7 +296,7 @@ height:100%;
 
     width: 100%;
     /* height: 100vh; */
-    /* padding: 5%; */
+    padding: 5%;
     background-color: #efe4d0; 
 }
 
@@ -333,7 +334,7 @@ height:100%;
 
 #contact-sec{
     width: 100%;
-    padding: 15px 15px;
+    padding: 5%;
     background-color: #efe4d0;
 }
 .contact{
@@ -361,19 +362,20 @@ height:100%;
 
 .footer{
     width: 100%;
+    
     /* height: 30px; */
     /* background-color: aqua; */
 }
 
-.footer h1{
+.footer-brand{
     font-family: Katerio;
     color: #c4842c;
 }
 
 .foot-nav{
     
-    background-color: #d0a45a;
-    
+    color: #d0a45a;
+    text-decoration: none;
     
 }
 .foot-nav ul{
